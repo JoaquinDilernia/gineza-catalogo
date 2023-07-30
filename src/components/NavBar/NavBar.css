@@ -26,7 +26,7 @@ nav {
 nav .titulo {
     color: #caa781;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 300;
     text-decoration: none;
     margin: 1rem;
     transition: all 0.3s ease;
@@ -37,6 +37,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 2.5rem;
 }
 
 nav ul.open {
@@ -52,7 +53,7 @@ nav ul li a {
     display: block;
     color: #caa781;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 300;
     text-decoration: none;
     transition: all 0.3s ease;
     margin: 0 0.5rem;
@@ -95,7 +96,7 @@ nav .menu span {
     border-radius: 0.25rem;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
     nav .menu {
         display: flex;
     }
