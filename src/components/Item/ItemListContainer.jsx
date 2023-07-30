@@ -23,9 +23,7 @@ const ItemListContainer = () => {
     });
   }, []);
 
-  const catFilterCategory = productos.filter(
-    (productos) => productos.Categoria === categoria
-  );
+ 
   
 
   function render() {
@@ -40,21 +38,8 @@ const ItemListContainer = () => {
     }
   }
 
-  function link_routes() {
-    if (categoria != null) {
-      return "Catalogo > "
-    }  else {
-      return <h2 id="catalogo_text"></h2>;
-    }
-  }
-
   return (
     <>
-    
-      <div className="links_tree">
-        {link_routes()}
-        {({categoria}) ? <Link>{categoria}</Link>:{}}
-      </div>
       <div>
         <Center color="black"></Center>
         {render()}

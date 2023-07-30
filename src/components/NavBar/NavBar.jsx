@@ -23,15 +23,6 @@ const NavBar = () => {
           <NavLink to='/catalogo'>Catalogo</NavLink>
         </li>
         <li>
-          <NavLink to={`/catalogo/${"swin"}`}>Swin</NavLink>
-        </li>
-        <li>
-          <NavLink to={`/catalogo/${"intimate"}`}>Intimate</NavLink>
-        </li>
-        <li>
-          <NavLink to={`/catalogo/${"nigth"}`}>Night Collection</NavLink>
-        </li>
-        <li>
           <NavLink to='/contacto'>Contacto</NavLink>
         </li>
       </ul>

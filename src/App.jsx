@@ -19,7 +19,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/catalogo' element={<ItemListContainer  />} />
-        <Route path='/catalogo/:categoria' element={<ItemListContainer  />} />
         <Route path='/contacto' element={<Contacto />} />
         <Route path='*' element={<Error404 />} />
       </Routes>

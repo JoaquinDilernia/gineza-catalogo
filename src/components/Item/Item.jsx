@@ -11,8 +11,8 @@ import {
   Center,
   Flex
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
-
+import React from 'react'
+import './item.css'
 
 const Item = ({ id, Nombre, Desc, SKU, img }) => {
 
@@ -20,8 +20,8 @@ const Item = ({ id, Nombre, Desc, SKU, img }) => {
   return (
     <div>
       <div key={id}>
-        <Flex>
-          <Card maxW="sm">
+       
+          <Card centerContent> 
             <CardBody>
             <Image src={img} width={250} />
               <Stack mt="6" spacing="3">
@@ -34,7 +34,7 @@ const Item = ({ id, Nombre, Desc, SKU, img }) => {
             <Text>SKU: {SKU}</Text>
             </CardFooter>
           </Card>
-        </Flex>
+       
       </div>
     </div>
   )

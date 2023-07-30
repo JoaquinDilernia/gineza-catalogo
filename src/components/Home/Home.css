@@ -1,0 +1,48 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.contenedor h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #caa781;
+    margin-bottom: 1rem;
+}
+
+.contenedor p {
+    font-size: 1.5rem;
+    text-align: center;
+
+    color: #caa781;
+    margin-bottom: 1rem;
+}
+
+.contenedor a {
+    text-decoration: none;
+    text-align: center;
+    color: #caa781;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: 2px solid #caa781;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.contenedor a:hover {
+    background-color: #caa781;
+    color: #f5f5f5;
+}
+
+@media (max-width: 750px) {
+    .contenedor {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+/* Path: src\components\Item\Item.css */
