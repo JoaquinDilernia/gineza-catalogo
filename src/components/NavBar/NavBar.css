@@ -99,6 +99,7 @@ nav .menu span {
 @media (max-width: 950px) {
     nav .menu {
         display: flex;
+        justify-content: space-between !important;
     }
 
     nav {

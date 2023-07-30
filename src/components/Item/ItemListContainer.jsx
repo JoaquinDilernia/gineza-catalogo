@@ -1,4 +1,4 @@
-import { Center } from "@chakra-ui/react";
+import { Center, Text } from "@chakra-ui/react";
 import ItemList from "./ItemList";
 import { Link, useParams } from "react-router-dom";
 import { collection, getDocs, getFirestore } from "firebase/firestore";
@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import Loading from "../Loading";
 
 const ItemListContainer = () => {
-  const { categoria} = useParams();
+  const { categoria } = useParams();
   const [productos, setProductos] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -23,8 +23,8 @@ const ItemListContainer = () => {
     });
   }, []);
 
- 
-  
+
+
 
   function render() {
     if (isLoading) {
@@ -42,6 +42,7 @@ const ItemListContainer = () => {
     <>
       <div>
         <Center color="black"></Center>
+        <Text textAlign="center" > CATALOGO</Text>
         {render()}
       </div>
     </>

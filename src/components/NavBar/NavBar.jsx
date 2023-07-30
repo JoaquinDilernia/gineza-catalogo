@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
 
     <nav>
-      <Link to='/' className='titulo'> Gineza </Link>
+      <Link to='/' className='titulo'> GINEZA </Link>
       <div className='menu' onClick={() => { setMenu(!menu) }}>
         <span></span>
         <span></span>

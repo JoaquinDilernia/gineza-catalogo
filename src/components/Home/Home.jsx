@@ -8,7 +8,9 @@ const Home = () => {
         <h1>GINEZA</h1>
         <h2>Somos proovedores de indumentaria</h2>
         <p>envios a todo el mundo</p>
-        <a href="">CONTACTANOS</a>
+
+        <a href=" https://wa.me/5491164212370" target='blank'>CONTACTANOS </a>
+
       </div>
 
   )

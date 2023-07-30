@@ -20,8 +20,8 @@ const Item = ({ id, Nombre, Desc, SKU, img }) => {
   return (
     <div>
       <div key={id}>
-       
-          <Card centerContent> 
+      
+          <Card > 
             <CardBody>
             <Image src={img} width={250} />
               <Stack mt="6" spacing="3">
@@ -34,7 +34,7 @@ const Item = ({ id, Nombre, Desc, SKU, img }) => {
             <Text>SKU: {SKU}</Text>
             </CardFooter>
           </Card>
-       
+      
       </div>
     </div>
   )
